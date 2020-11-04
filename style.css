@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.image {
+    border-radius: 50px;
+    width: 175px;
+    margin-bottom: 50px;
+}
+
+.anyone {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    display: table;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: fantasy;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.anyone1 {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+#span {
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+#dunno {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.nothing {
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'Krona one'
+}
+
+.menu {
+    position: fixed;
+    font-family: monospace;
+    top: 0px;
+    width: 100%;
+    cursor: pointer;
+    list-style: none;
+    z-index: 10;
+}
+
+.links {
+    padding-right: 25px;
+    display: inline;
+    padding-left: 30px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: darkcyan;
+    text-decoration: underline;
+}
+.article:hover {
+    color: cadetblue;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color:firebrick;
+    text-shadow: 2px 2px aquamarine;
+}
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline;
+    color:azure;
+}
+#contact iframe {
+     width: 100%    
+}
+.contact1 {
+    text-decoration-color: fuchsia;
+    color: beige;
+}
+.contact1 h3 {
+    display: inline;
+}
+.contact1 a {
+   color:white;
+    text-shadow: none;
+}
+.article {
+    font-weight: 10000;
+}
+#contact{
+    text-align: center;
+    background-color: firebrick;
+}
